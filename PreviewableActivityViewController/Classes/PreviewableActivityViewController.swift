@@ -15,9 +15,12 @@ import UIKit
 /// when `UIActivityViewController` is presented.
 open class PreviewableActivityViewController: UIActivityViewController {
     
+    // MARK: - Properties -
+    // MARK: Public
+    
     /// Set the `previewImageView`s image to be your preview before
     /// presenting the view controller to the user.
-    let previewImageView: UIImageView = {
+    open let previewImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
@@ -38,6 +41,9 @@ open class PreviewableActivityViewController: UIActivityViewController {
     /// The size of the margin, in points, between the preview view and the
     /// top of the activity view controller's main view.
     open var previewImageViewBottomMargin: CGFloat = 8
+    
+    // MARK: - Overrides -
+    // MARK: Functions
     
     open override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
