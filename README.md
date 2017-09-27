@@ -5,9 +5,18 @@
 [![License](https://img.shields.io/cocoapods/l/PreviewableActivityViewController.svg?style=flat)](http://cocoapods.org/pods/PreviewableActivityViewController)
 [![Platform](https://img.shields.io/cocoapods/p/PreviewableActivityViewController.svg?style=flat)](http://cocoapods.org/pods/PreviewableActivityViewController)
 
-## Example
+[![Example Image](images/Example1.png)
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## Usage
+
+Default usage is no different from the regular `UIActivityViewController` . The controller will automatically try to populate the preview image view from the images you provide at initialisation time:
+
+```swift
+let controller = PreviewableActivityViewController(activityItems: [#imageLiteral(resourceName: "example")])
+present(controller, animated: true)
+```
+
+You can optionally customise things like the aspect ratio of the preview image (defaults to 2:1). If you change this aspect ratio, be mindful of running out of space on smaller screens, AirDrop takes up a lot of space.
 
 ## Requirements
 
@@ -22,7 +31,7 @@ pod 'PreviewableActivityViewController'
 
 ## Author
 
-Kane Cheshire, kane.cheshire@googlemail.com
+Kane Cheshire,
 
 ## License
 
