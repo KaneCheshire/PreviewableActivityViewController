@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PreviewableActivityViewController_Example' do
+  pod 'PreviewableActivityViewController', :path => '../'
+
+  target 'PreviewableActivityViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
