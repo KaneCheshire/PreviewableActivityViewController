@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/PreviewableActivityViewController.svg?style=flat)](http://cocoapods.org/pods/PreviewableActivityViewController)
 [![Platform](https://img.shields.io/cocoapods/p/PreviewableActivityViewController.svg?style=flat)](http://cocoapods.org/pods/PreviewableActivityViewController)
 
-[![Example Image](images/Example1.png)
+[![Example Image](images/Example1.png)]
 
 ## Usage
 
