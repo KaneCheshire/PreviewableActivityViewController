@@ -7,18 +7,21 @@
 //
 
 import UIKit
+import PreviewableActivityViewController
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        presentActivityViewController()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    private func presentActivityViewController() {
+        let image = UIImage()
+        let controller = PreviewableActivityViewController(activityItems: [image], applicationActivities: nil)
+        controller.previewImageView.image = image
+        present(controller, animated: true)
     }
-
+    
 }
 
