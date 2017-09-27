@@ -1,0 +1,6 @@
+framework module PreviewableActivityViewController {
+  umbrella header "PreviewableActivityViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

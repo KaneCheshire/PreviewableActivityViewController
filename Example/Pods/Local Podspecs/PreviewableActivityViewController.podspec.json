@@ -1,0 +1,22 @@
+{
+  "name": "PreviewableActivityViewController",
+  "version": "0.1.0",
+  "summary": "A short description of PreviewableActivityViewController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Kane Cheshire/PreviewableActivityViewController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Kane Cheshire": "kane.cheshire@googlemail.com"
+  },
+  "source": {
+    "git": "https://github.com/Kane Cheshire/PreviewableActivityViewController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PreviewableActivityViewController/Classes/**/*"
+}
