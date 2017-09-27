@@ -20,6 +20,8 @@ open class PreviewableActivityViewController: UIActivityViewController {
     
     /// Set the `previewImageView`s image to be your preview before
     /// presenting the view controller to the user.
+    /// By default, the controller will assign the first image passed in
+    /// during initialisation, if any.
     open let previewImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFill
@@ -43,6 +45,13 @@ open class PreviewableActivityViewController: UIActivityViewController {
     open var previewImageViewBottomMargin: CGFloat = 8
     
     // MARK: - Overrides -
+    
+    public override init(activityItems: [Any], applicationActivities: [UIActivity]? = nil) {
+        super.init(activityItems: activityItems, applicationActivities: applicationActivities)
+        let images: [UIImage] = activityItems.flatMap { return $0 as? UIImage }
+        previewImageView.image = images.first
+    }
+    
     // MARK: Functions
     
     open override func viewDidAppear(_ animated: Bool) {

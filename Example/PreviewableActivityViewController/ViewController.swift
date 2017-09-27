@@ -17,9 +17,7 @@ class ViewController: UIViewController {
     }
     
     private func presentActivityViewController() {
-        let image = UIImage()
-        let controller = PreviewableActivityViewController(activityItems: [image], applicationActivities: nil)
-        controller.previewImageView.image = image
+        let controller = PreviewableActivityViewController(activityItems: [#imageLiteral(resourceName: "example")])
         present(controller, animated: true)
     }
     
