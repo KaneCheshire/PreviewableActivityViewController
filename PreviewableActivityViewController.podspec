@@ -8,7 +8,6 @@ A `UIActivityViewController` that provides the ability to show a preview of the 
                        DESC
 
   s.homepage         = 'https://github.com/kanecheshire/PreviewableActivityViewController'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Kane Cheshire' => 'kane.cheshire@googlemail.com' }
   s.source           = { :git => 'https://github.com/kanecheshire/PreviewableActivityViewController.git', :tag => s.version.to_s }

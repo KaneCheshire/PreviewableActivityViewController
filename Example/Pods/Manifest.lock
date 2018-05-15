@@ -1,5 +1,5 @@
 PODS:
-  - PreviewableActivityViewController (0.1.0)
+  - PreviewableActivityViewController (1.0)
 
 DEPENDENCIES:
   - PreviewableActivityViewController (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PreviewableActivityViewController: 08d8997a22fc998b91346f0ee65d3073dda28b52
+  PreviewableActivityViewController: 83b012f50460fc756133b4bfb619baedf74445cf
 
-PODFILE CHECKSUM: 6ce377d5222a5f0c8667c834cd95097f79d286e4
+PODFILE CHECKSUM: 7306bcd5fa4976e5e1caa3b93ed0afc50138f4a0
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.4.0

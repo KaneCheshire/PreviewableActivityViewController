@@ -48,7 +48,7 @@ open class PreviewableActivityViewController: UIActivityViewController {
     
     public override init(activityItems: [Any], applicationActivities: [UIActivity]? = nil) {
         super.init(activityItems: activityItems, applicationActivities: applicationActivities)
-        let images: [UIImage] = activityItems.flatMap { return $0 as? UIImage }
+        let images: [UIImage] = activityItems.compactMap { return $0 as? UIImage }
         previewImageView.image = images.first
     }
     
