@@ -13,10 +13,6 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        presentActivityViewController()
-    }
-    
-    private func presentActivityViewController() {
         let controller = PreviewableActivityViewController(activityItems: [#imageLiteral(resourceName: "example")])
         present(controller, animated: true)
     }

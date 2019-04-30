@@ -3,8 +3,4 @@ platform :ios, '9.0'
 
 target 'PreviewableActivityViewController_Example' do
   pod 'PreviewableActivityViewController', :path => '../'
-
-  target 'PreviewableActivityViewController_Tests' do
-    inherit! :search_paths
-  end
 end
