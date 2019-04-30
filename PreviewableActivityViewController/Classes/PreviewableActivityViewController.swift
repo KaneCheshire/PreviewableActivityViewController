@@ -22,7 +22,7 @@ open class PreviewableActivityViewController: UIActivityViewController {
     /// presenting the view controller to the user.
     /// By default, the controller will assign the first image passed in
     /// during initialisation, if any.
-    open let previewImageView: UIImageView = {
+    public let previewImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
