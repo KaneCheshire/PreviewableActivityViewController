@@ -13,6 +13,7 @@ A `UIActivityViewController` that provides the ability to show a preview of the 
   s.source           = { :git => 'https://github.com/kanecheshire/PreviewableActivityViewController.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/kanecheshire'
   s.ios.deployment_target = '9.0'
-  s.source_files = 'PreviewableActivityViewController/Classes/**/*'
+  s.source_files = 'Sources/PreviewableActivityViewController.swift'
+  s.swift_version = '5.0'
 
 end

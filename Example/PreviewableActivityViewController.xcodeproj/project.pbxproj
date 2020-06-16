@@ -13,7 +13,18 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		C315BB76249904BE00C572A9 /* PreviewableActivityViewController_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315BB75249904BE00C572A9 /* PreviewableActivityViewController_ExampleTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C315BB78249904BE00C572A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = PreviewableActivityViewController_Example;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		017E9F0FBE21066D3E27BED4 /* Pods_PreviewableActivityViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreviewableActivityViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +40,9 @@
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7B440AA5DB50A1567A6B6D0F /* Pods-PreviewableActivityViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreviewableActivityViewController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PreviewableActivityViewController_Tests/Pods-PreviewableActivityViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C315BB73249904BE00C572A9 /* PreviewableActivityViewController_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreviewableActivityViewController_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C315BB75249904BE00C572A9 /* PreviewableActivityViewController_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewableActivityViewController_ExampleTests.swift; sourceTree = "<group>"; };
+		C315BB77249904BE00C572A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6B9198CF6C1EE3B759D3AF1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CACEF47B5EB1B1CE0769B0EF /* Pods-PreviewableActivityViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreviewableActivityViewController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PreviewableActivityViewController_Example/Pods-PreviewableActivityViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D69FDCE540D9EC34DA2FCB81 /* Pods_PreviewableActivityViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PreviewableActivityViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +57,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C315BB70249904BE00C572A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -51,6 +72,7 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for PreviewableActivityViewController */,
+				C315BB74249904BE00C572A9 /* PreviewableActivityViewController_ExampleTests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				77A52619C7BA92A2BFF7DA3F /* Pods */,
 				CD8CFB743F040B2CB85EA735 /* Frameworks */,
@@ -61,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* PreviewableActivityViewController_Example.app */,
+				C315BB73249904BE00C572A9 /* PreviewableActivityViewController_ExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +131,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C315BB74249904BE00C572A9 /* PreviewableActivityViewController_ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C315BB75249904BE00C572A9 /* PreviewableActivityViewController_ExampleTests.swift */,
+				C315BB77249904BE00C572A9 /* Info.plist */,
+			);
+			path = PreviewableActivityViewController_ExampleTests;
+			sourceTree = "<group>";
+		};
 		CD8CFB743F040B2CB85EA735 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,13 +171,31 @@
 			productReference = 607FACD01AFB9204008FA782 /* PreviewableActivityViewController_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C315BB72249904BE00C572A9 /* PreviewableActivityViewController_ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C315BB7C249904BE00C572A9 /* Build configuration list for PBXNativeTarget "PreviewableActivityViewController_ExampleTests" */;
+			buildPhases = (
+				C315BB6F249904BE00C572A9 /* Sources */,
+				C315BB70249904BE00C572A9 /* Frameworks */,
+				C315BB71249904BE00C572A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C315BB79249904BE00C572A9 /* PBXTargetDependency */,
+			);
+			name = PreviewableActivityViewController_ExampleTests;
+			productName = PreviewableActivityViewController_ExampleTests;
+			productReference = C315BB73249904BE00C572A9 /* PreviewableActivityViewController_ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
@@ -153,6 +203,11 @@
 						CreatedOnToolsVersion = 6.3.1;
 						DevelopmentTeam = 9BCL7VAFF4;
 						LastSwiftMigration = 1020;
+					};
+					C315BB72249904BE00C572A9 = {
+						CreatedOnToolsVersion = 11.4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
@@ -170,6 +225,7 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* PreviewableActivityViewController_Example */,
+				C315BB72249904BE00C572A9 /* PreviewableActivityViewController_ExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -182,6 +238,13 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C315BB71249904BE00C572A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,7 +299,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C315BB6F249904BE00C572A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C315BB76249904BE00C572A9 /* PreviewableActivityViewController_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C315BB79249904BE00C572A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* PreviewableActivityViewController_Example */;
+			targetProxy = C315BB78249904BE00C572A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
@@ -395,6 +474,57 @@
 			};
 			name = Release;
 		};
+		C315BB7A249904BE00C572A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = PreviewableActivityViewController_ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "codes.kane.PreviewableActivityViewController-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PreviewableActivityViewController_Example.app/PreviewableActivityViewController_Example";
+			};
+			name = Debug;
+		};
+		C315BB7B249904BE00C572A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = PreviewableActivityViewController_ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "codes.kane.PreviewableActivityViewController-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PreviewableActivityViewController_Example.app/PreviewableActivityViewController_Example";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -412,6 +542,15 @@
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
 				607FACF11AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C315BB7C249904BE00C572A9 /* Build configuration list for PBXNativeTarget "PreviewableActivityViewController_ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C315BB7A249904BE00C572A9 /* Debug */,
+				C315BB7B249904BE00C572A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

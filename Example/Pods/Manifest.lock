@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PreviewableActivityViewController: fdee1c59d091df2d0bc53a1767aca5ed90e66177
+  PreviewableActivityViewController: 29d9c5a1c8767c8607c331f7c5fb2da451760464
 
 PODFILE CHECKSUM: c7ffc84d86c20e6314f77e1852f06874682b91ed
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.9.1
