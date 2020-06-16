@@ -7,101 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5BD6E1F965F12CE326B0572A0C11A29E /* PreviewableActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07498AE50D774519A439D3A79C04DC0 /* PreviewableActivityViewController.swift */; };
-		BAD5FAFEA2E03564B76B872156B158B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		BB8248F75348473BEE40111437B1147B /* PreviewableActivityViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ABC0193BB2B1442AA6356C94317932C /* PreviewableActivityViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF7AD6AB4E41B3CFE34B3E7AD1A8945B /* Pods-PreviewableActivityViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 225E40945808FF6F2E5F46320238F1C8 /* Pods-PreviewableActivityViewController_Example-dummy.m */; };
-		DD357EDA10339834790DD7D7B50427D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		DFE7010563D69854AC47567F1638DFB1 /* Pods-PreviewableActivityViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41D58EA407BD938C180225CFE0A8471C /* Pods-PreviewableActivityViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FB18CDD1FC4364441751FEFC8340DB0F /* PreviewableActivityViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CE63F2CDD745DDC4C7D34AB8620E7F9 /* PreviewableActivityViewController-dummy.m */; };
+		18F04A8C634B467D69D0AA4A2EE8D486 /* PreviewableActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D35AAF674FFA8DFCC2B4B71FA463736 /* PreviewableActivityViewController.swift */; };
+		2EC8D39895CAF06AB3D871EA443CE0A4 /* PreviewableActivityViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E9211EA527FB02B3C8C442904F9A7E1 /* PreviewableActivityViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F6D97D3599D3CA422D0C3A914CBA2BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A6CCFAB17F611142FC0F0DD865367339 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C7FADC0CFC6874DDB38BA84D44F7BA75 /* Pods-PreviewableActivityViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7C5F06F02D5F7C407F184EA8ECCD041 /* Pods-PreviewableActivityViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED2FA60B7BB00BFBE6AA4348EADEA427 /* PreviewableActivityViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9719727394F6DE6860E31E6B81F4239C /* PreviewableActivityViewController-dummy.m */; };
+		F88656B0D79F6ED010C50CB08B900AAB /* Pods-PreviewableActivityViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 388696AEC7003959FA872C85EAC320BD /* Pods-PreviewableActivityViewController_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6335972CB36E345DF0DD970793003964 /* PBXContainerItemProxy */ = {
+		B7A9A1259C360BDC5134992DA180988D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 41AFC56578142174AC5E4E29DE72B1EF;
+			remoteGlobalIDString = E41E8C5C014DCB93483658A8D86B5C3B;
 			remoteInfo = PreviewableActivityViewController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1AE820E76ABE0464A5EBF623ECBB3D17 /* Pods-PreviewableActivityViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PreviewableActivityViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1C9B5423A6291126A4CF9A87683BCA0C /* Pods-PreviewableActivityViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PreviewableActivityViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1CE63F2CDD745DDC4C7D34AB8620E7F9 /* PreviewableActivityViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PreviewableActivityViewController-dummy.m"; sourceTree = "<group>"; };
-		1DC177650895C1058E137EB68AB8E74C /* PreviewableActivityViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PreviewableActivityViewController.modulemap; sourceTree = "<group>"; };
-		225E40945808FF6F2E5F46320238F1C8 /* Pods-PreviewableActivityViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PreviewableActivityViewController_Example-dummy.m"; sourceTree = "<group>"; };
-		23F9B577201CC7AF460F3F04E2AB4DCC /* PreviewableActivityViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PreviewableActivityViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		41D58EA407BD938C180225CFE0A8471C /* Pods-PreviewableActivityViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PreviewableActivityViewController_Example-umbrella.h"; sourceTree = "<group>"; };
-		511D301697E7024E4B237E39C46929C5 /* Pods-PreviewableActivityViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PreviewableActivityViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5ABC0193BB2B1442AA6356C94317932C /* PreviewableActivityViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PreviewableActivityViewController-umbrella.h"; sourceTree = "<group>"; };
-		5B6B1E6D62AFCCB46B8FD49E50B69076 /* Pods-PreviewableActivityViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PreviewableActivityViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		60D1B904DAA9CCFE5E67B037AE796A5C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		76DF69F11EAD69281533266C727A49D4 /* PreviewableActivityViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PreviewableActivityViewController.xcconfig; sourceTree = "<group>"; };
-		8BAB963DDDB2D8BB1C9CA8436E86F171 /* PreviewableActivityViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PreviewableActivityViewController-Info.plist"; sourceTree = "<group>"; };
-		9A15E212A68F672FC183E1C7C5E19E47 /* PreviewableActivityViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PreviewableActivityViewController-prefix.pch"; sourceTree = "<group>"; };
+		0239FFA4CF09A5BEA6EAF8CCD693E659 /* Pods-PreviewableActivityViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PreviewableActivityViewController_Example.modulemap"; sourceTree = "<group>"; };
+		0A6B81723B3778437C912E480FB5CAED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		350E1C7C2BE12FFEF41E21F975643AC8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		388696AEC7003959FA872C85EAC320BD /* Pods-PreviewableActivityViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PreviewableActivityViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		4F7083C6B2174A5F00F75D8A3CE7E5D3 /* PreviewableActivityViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PreviewableActivityViewController-prefix.pch"; sourceTree = "<group>"; };
+		506CDA25B8FAECB8DB4991EC4385ED64 /* Pods-PreviewableActivityViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PreviewableActivityViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5D35AAF674FFA8DFCC2B4B71FA463736 /* PreviewableActivityViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreviewableActivityViewController.swift; path = Sources/PreviewableActivityViewController.swift; sourceTree = "<group>"; };
+		75D9A7A96D479869C2495913136D9FDF /* PreviewableActivityViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PreviewableActivityViewController.release.xcconfig; sourceTree = "<group>"; };
+		8707D185CC0A04FA25BCA353E0F58533 /* PreviewableActivityViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PreviewableActivityViewController.framework; path = PreviewableActivityViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8880747DAA9C035EB89BA62AA6CE585A /* PreviewableActivityViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PreviewableActivityViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8E071CB7BBF444DB4E446B7B17ADDCE6 /* PreviewableActivityViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PreviewableActivityViewController.modulemap; sourceTree = "<group>"; };
+		9719727394F6DE6860E31E6B81F4239C /* PreviewableActivityViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PreviewableActivityViewController-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A09C866FD3E23D5FCB2F3FEE02BAAC12 /* Pods_PreviewableActivityViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PreviewableActivityViewController_Example.framework; path = "Pods-PreviewableActivityViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2F5B876BC8B3F012F4D5DBFD4EB6BC6 /* Pods-PreviewableActivityViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PreviewableActivityViewController_Example.modulemap"; sourceTree = "<group>"; };
-		C36CDADC2B7D19618F08AFDB3B85B670 /* PreviewableActivityViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PreviewableActivityViewController.framework; path = PreviewableActivityViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C36D92BB14B5C959E151D3E3528C2AB5 /* Pods-PreviewableActivityViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PreviewableActivityViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D1C7904B32C73987B8A2631B5F604197 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		D74DAF9906BE10DC05842E946E462123 /* Pods-PreviewableActivityViewController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PreviewableActivityViewController_Example-Info.plist"; sourceTree = "<group>"; };
-		F07498AE50D774519A439D3A79C04DC0 /* PreviewableActivityViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreviewableActivityViewController.swift; path = PreviewableActivityViewController/Classes/PreviewableActivityViewController.swift; sourceTree = "<group>"; };
+		9E9211EA527FB02B3C8C442904F9A7E1 /* PreviewableActivityViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PreviewableActivityViewController-umbrella.h"; sourceTree = "<group>"; };
+		A0885B9468B1A67F472780DDF2D198F1 /* Pods-PreviewableActivityViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PreviewableActivityViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B163AE35619B7006164DE589A439AB75 /* PreviewableActivityViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PreviewableActivityViewController.debug.xcconfig; sourceTree = "<group>"; };
+		B1C890867D1C3E88E3FE06901855EFED /* Pods_PreviewableActivityViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PreviewableActivityViewController_Example.framework; path = "Pods-PreviewableActivityViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A1278F7802B66CBB433D919BB5D10A /* Pods-PreviewableActivityViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PreviewableActivityViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D820B8619C5DA6DC40DCE0F4F7E1BCC2 /* Pods-PreviewableActivityViewController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PreviewableActivityViewController_Example-Info.plist"; sourceTree = "<group>"; };
+		DD323661D57A5E4BAC39756013ECD810 /* PreviewableActivityViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PreviewableActivityViewController-Info.plist"; sourceTree = "<group>"; };
+		DFC6959626CDA9F2B68E0844B0B696EB /* Pods-PreviewableActivityViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PreviewableActivityViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E3E45B78D0471695272C04FBEEF51649 /* Pods-PreviewableActivityViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PreviewableActivityViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E7C5F06F02D5F7C407F184EA8ECCD041 /* Pods-PreviewableActivityViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PreviewableActivityViewController_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1ECB76A674CC5EE598E09F6DF9243E3F /* Frameworks */ = {
+		4D2E78FEF0C47EAE3251F664BF9CD91F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAD5FAFEA2E03564B76B872156B158B7 /* Foundation.framework in Frameworks */,
+				A6CCFAB17F611142FC0F0DD865367339 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50282BBD0315C349B50E5BE0C93F0D12 /* Frameworks */ = {
+		9AE6A807E8968F3363A4611996691A4A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD357EDA10339834790DD7D7B50427D8 /* Foundation.framework in Frameworks */,
+				5F6D97D3599D3CA422D0C3A914CBA2BB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04D397C16DE947AE28197C15DA9AE86A /* PreviewableActivityViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5D35AAF674FFA8DFCC2B4B71FA463736 /* PreviewableActivityViewController.swift */,
+				6EFB0CFFC3634DD565EB3E4EB966FC78 /* Pod */,
+				F91CCEB1913743A226E3D64081C7681D /* Support Files */,
+			);
+			name = PreviewableActivityViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		0A95BBEBC324375B9E9B5CDD1C221157 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B46D64BEC2D8818872C3E457A4E12E60 /* PreviewableActivityViewController */,
+				04D397C16DE947AE28197C15DA9AE86A /* PreviewableActivityViewController */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		3BA937C48E797E4FAA5A27277C91B05A /* Pod */ = {
+		40EF0E364D49ACBDD7797FB3BEBCCEB5 /* Pods-PreviewableActivityViewController_Example */ = {
 			isa = PBXGroup;
 			children = (
-				60D1B904DAA9CCFE5E67B037AE796A5C /* LICENSE */,
-				23F9B577201CC7AF460F3F04E2AB4DCC /* PreviewableActivityViewController.podspec */,
-				D1C7904B32C73987B8A2631B5F604197 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		45F003CD3AB066E0D4485C334A3887FC /* Pods-PreviewableActivityViewController_Example */ = {
-			isa = PBXGroup;
-			children = (
-				A2F5B876BC8B3F012F4D5DBFD4EB6BC6 /* Pods-PreviewableActivityViewController_Example.modulemap */,
-				C36D92BB14B5C959E151D3E3528C2AB5 /* Pods-PreviewableActivityViewController_Example-acknowledgements.markdown */,
-				1AE820E76ABE0464A5EBF623ECBB3D17 /* Pods-PreviewableActivityViewController_Example-acknowledgements.plist */,
-				225E40945808FF6F2E5F46320238F1C8 /* Pods-PreviewableActivityViewController_Example-dummy.m */,
-				5B6B1E6D62AFCCB46B8FD49E50B69076 /* Pods-PreviewableActivityViewController_Example-frameworks.sh */,
-				D74DAF9906BE10DC05842E946E462123 /* Pods-PreviewableActivityViewController_Example-Info.plist */,
-				41D58EA407BD938C180225CFE0A8471C /* Pods-PreviewableActivityViewController_Example-umbrella.h */,
-				1C9B5423A6291126A4CF9A87683BCA0C /* Pods-PreviewableActivityViewController_Example.debug.xcconfig */,
-				511D301697E7024E4B237E39C46929C5 /* Pods-PreviewableActivityViewController_Example.release.xcconfig */,
+				0239FFA4CF09A5BEA6EAF8CCD693E659 /* Pods-PreviewableActivityViewController_Example.modulemap */,
+				506CDA25B8FAECB8DB4991EC4385ED64 /* Pods-PreviewableActivityViewController_Example-acknowledgements.markdown */,
+				E3E45B78D0471695272C04FBEEF51649 /* Pods-PreviewableActivityViewController_Example-acknowledgements.plist */,
+				388696AEC7003959FA872C85EAC320BD /* Pods-PreviewableActivityViewController_Example-dummy.m */,
+				B6A1278F7802B66CBB433D919BB5D10A /* Pods-PreviewableActivityViewController_Example-frameworks.sh */,
+				D820B8619C5DA6DC40DCE0F4F7E1BCC2 /* Pods-PreviewableActivityViewController_Example-Info.plist */,
+				E7C5F06F02D5F7C407F184EA8ECCD041 /* Pods-PreviewableActivityViewController_Example-umbrella.h */,
+				A0885B9468B1A67F472780DDF2D198F1 /* Pods-PreviewableActivityViewController_Example.debug.xcconfig */,
+				DFC6959626CDA9F2B68E0844B0B696EB /* Pods-PreviewableActivityViewController_Example.release.xcconfig */,
 			);
 			name = "Pods-PreviewableActivityViewController_Example";
 			path = "Target Support Files/Pods-PreviewableActivityViewController_Example";
@@ -110,37 +112,36 @@
 		50601036D0006ADDA044C8FD4B1017E7 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				45F003CD3AB066E0D4485C334A3887FC /* Pods-PreviewableActivityViewController_Example */,
+				40EF0E364D49ACBDD7797FB3BEBCCEB5 /* Pods-PreviewableActivityViewController_Example */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+		55EBDED88054948A9C60E026D6046936 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		B46D64BEC2D8818872C3E457A4E12E60 /* PreviewableActivityViewController */ = {
-			isa = PBXGroup;
-			children = (
-				F07498AE50D774519A439D3A79C04DC0 /* PreviewableActivityViewController.swift */,
-				3BA937C48E797E4FAA5A27277C91B05A /* Pod */,
-				EB2CDD8D7A16D4F30B78849443C224C7 /* Support Files */,
-			);
-			name = PreviewableActivityViewController;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		BD3D2E968656F9422F93C0743102FAB5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A09C866FD3E23D5FCB2F3FEE02BAAC12 /* Pods_PreviewableActivityViewController_Example.framework */,
-				C36CDADC2B7D19618F08AFDB3B85B670 /* PreviewableActivityViewController.framework */,
+				B1C890867D1C3E88E3FE06901855EFED /* Pods_PreviewableActivityViewController_Example.framework */,
+				8707D185CC0A04FA25BCA353E0F58533 /* PreviewableActivityViewController.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		6EFB0CFFC3634DD565EB3E4EB966FC78 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				350E1C7C2BE12FFEF41E21F975643AC8 /* LICENSE */,
+				8880747DAA9C035EB89BA62AA6CE585A /* PreviewableActivityViewController.podspec */,
+				0A6B81723B3778437C912E480FB5CAED /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -149,7 +150,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				0A95BBEBC324375B9E9B5CDD1C221157 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				BD3D2E968656F9422F93C0743102FAB5 /* Products */,
+				55EBDED88054948A9C60E026D6046936 /* Products */,
 				50601036D0006ADDA044C8FD4B1017E7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -157,20 +158,21 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EB2CDD8D7A16D4F30B78849443C224C7 /* Support Files */ = {
+		F91CCEB1913743A226E3D64081C7681D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1DC177650895C1058E137EB68AB8E74C /* PreviewableActivityViewController.modulemap */,
-				76DF69F11EAD69281533266C727A49D4 /* PreviewableActivityViewController.xcconfig */,
-				1CE63F2CDD745DDC4C7D34AB8620E7F9 /* PreviewableActivityViewController-dummy.m */,
-				8BAB963DDDB2D8BB1C9CA8436E86F171 /* PreviewableActivityViewController-Info.plist */,
-				9A15E212A68F672FC183E1C7C5E19E47 /* PreviewableActivityViewController-prefix.pch */,
-				5ABC0193BB2B1442AA6356C94317932C /* PreviewableActivityViewController-umbrella.h */,
+				8E071CB7BBF444DB4E446B7B17ADDCE6 /* PreviewableActivityViewController.modulemap */,
+				9719727394F6DE6860E31E6B81F4239C /* PreviewableActivityViewController-dummy.m */,
+				DD323661D57A5E4BAC39756013ECD810 /* PreviewableActivityViewController-Info.plist */,
+				4F7083C6B2174A5F00F75D8A3CE7E5D3 /* PreviewableActivityViewController-prefix.pch */,
+				9E9211EA527FB02B3C8C442904F9A7E1 /* PreviewableActivityViewController-umbrella.h */,
+				B163AE35619B7006164DE589A439AB75 /* PreviewableActivityViewController.debug.xcconfig */,
+				75D9A7A96D479869C2495913136D9FDF /* PreviewableActivityViewController.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/PreviewableActivityViewController";
@@ -179,33 +181,52 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0BFEF03D0546C584C25A40E62C9DFDCA /* Headers */ = {
+		8B9AD14B228472F6122234758D067DD6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB8248F75348473BEE40111437B1147B /* PreviewableActivityViewController-umbrella.h in Headers */,
+				C7FADC0CFC6874DDB38BA84D44F7BA75 /* Pods-PreviewableActivityViewController_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64C3CE39976985EE6355E6A7C9ACA14C /* Headers */ = {
+		B8E0A6BB0EC859A07A8970AACBCC2A5B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFE7010563D69854AC47567F1638DFB1 /* Pods-PreviewableActivityViewController_Example-umbrella.h in Headers */,
+				2EC8D39895CAF06AB3D871EA443CE0A4 /* PreviewableActivityViewController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		41AFC56578142174AC5E4E29DE72B1EF /* PreviewableActivityViewController */ = {
+		924C4797DED059D362DA6CE4D9CB18D3 /* Pods-PreviewableActivityViewController_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 19EE556654E9160BDB95CE7F75EFD983 /* Build configuration list for PBXNativeTarget "PreviewableActivityViewController" */;
+			buildConfigurationList = B5C052882DAD7AE9B9ECE209C99EFC31 /* Build configuration list for PBXNativeTarget "Pods-PreviewableActivityViewController_Example" */;
 			buildPhases = (
-				0BFEF03D0546C584C25A40E62C9DFDCA /* Headers */,
-				E0A856E01BAB4E08EE02E1B34A6C7483 /* Sources */,
-				1ECB76A674CC5EE598E09F6DF9243E3F /* Frameworks */,
-				F21812114A8DCBA46DDF6DE2B929E2A4 /* Resources */,
+				8B9AD14B228472F6122234758D067DD6 /* Headers */,
+				2AF590F05F239FA223C76A01280DA754 /* Sources */,
+				4D2E78FEF0C47EAE3251F664BF9CD91F /* Frameworks */,
+				32EAD64D597B82A3849A62CB906EBD45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F49D1B896E50D9E064E9800C26816BE /* PBXTargetDependency */,
+			);
+			name = "Pods-PreviewableActivityViewController_Example";
+			productName = "Pods-PreviewableActivityViewController_Example";
+			productReference = B1C890867D1C3E88E3FE06901855EFED /* Pods_PreviewableActivityViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E41E8C5C014DCB93483658A8D86B5C3B /* PreviewableActivityViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24F5E9E1869B5A1B2415FD67419E7208 /* Build configuration list for PBXNativeTarget "PreviewableActivityViewController" */;
+			buildPhases = (
+				B8E0A6BB0EC859A07A8970AACBCC2A5B /* Headers */,
+				040FDD65642BB26278C336348CA81AE8 /* Sources */,
+				9AE6A807E8968F3363A4611996691A4A /* Frameworks */,
+				6DBDF3C3F6207E604C71F3DF24B6AE8E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -213,26 +234,7 @@
 			);
 			name = PreviewableActivityViewController;
 			productName = PreviewableActivityViewController;
-			productReference = C36CDADC2B7D19618F08AFDB3B85B670 /* PreviewableActivityViewController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		76CE23B98579EDB770DCEB9E368B1852 /* Pods-PreviewableActivityViewController_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8243CBAE8A5EA4B10EA20D9058286088 /* Build configuration list for PBXNativeTarget "Pods-PreviewableActivityViewController_Example" */;
-			buildPhases = (
-				64C3CE39976985EE6355E6A7C9ACA14C /* Headers */,
-				B13288A8C2E84E27A1989A7ABFCB1158 /* Sources */,
-				50282BBD0315C349B50E5BE0C93F0D12 /* Frameworks */,
-				655CAE65F955767721790576D9580573 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				33486F610C501119C7F0B74C5E0B4EF5 /* PBXTargetDependency */,
-			);
-			name = "Pods-PreviewableActivityViewController_Example";
-			productName = "Pods-PreviewableActivityViewController_Example";
-			productReference = A09C866FD3E23D5FCB2F3FEE02BAAC12 /* Pods_PreviewableActivityViewController_Example.framework */;
+			productReference = 8707D185CC0A04FA25BCA353E0F58533 /* PreviewableActivityViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -241,36 +243,37 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = BD3D2E968656F9422F93C0743102FAB5 /* Products */;
+			productRefGroup = 55EBDED88054948A9C60E026D6046936 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				76CE23B98579EDB770DCEB9E368B1852 /* Pods-PreviewableActivityViewController_Example */,
-				41AFC56578142174AC5E4E29DE72B1EF /* PreviewableActivityViewController */,
+				924C4797DED059D362DA6CE4D9CB18D3 /* Pods-PreviewableActivityViewController_Example */,
+				E41E8C5C014DCB93483658A8D86B5C3B /* PreviewableActivityViewController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		655CAE65F955767721790576D9580573 /* Resources */ = {
+		32EAD64D597B82A3849A62CB906EBD45 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F21812114A8DCBA46DDF6DE2B929E2A4 /* Resources */ = {
+		6DBDF3C3F6207E604C71F3DF24B6AE8E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,36 +283,127 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B13288A8C2E84E27A1989A7ABFCB1158 /* Sources */ = {
+		040FDD65642BB26278C336348CA81AE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF7AD6AB4E41B3CFE34B3E7AD1A8945B /* Pods-PreviewableActivityViewController_Example-dummy.m in Sources */,
+				ED2FA60B7BB00BFBE6AA4348EADEA427 /* PreviewableActivityViewController-dummy.m in Sources */,
+				18F04A8C634B467D69D0AA4A2EE8D486 /* PreviewableActivityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0A856E01BAB4E08EE02E1B34A6C7483 /* Sources */ = {
+		2AF590F05F239FA223C76A01280DA754 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB18CDD1FC4364441751FEFC8340DB0F /* PreviewableActivityViewController-dummy.m in Sources */,
-				5BD6E1F965F12CE326B0572A0C11A29E /* PreviewableActivityViewController.swift in Sources */,
+				F88656B0D79F6ED010C50CB08B900AAB /* Pods-PreviewableActivityViewController_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		33486F610C501119C7F0B74C5E0B4EF5 /* PBXTargetDependency */ = {
+		1F49D1B896E50D9E064E9800C26816BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PreviewableActivityViewController;
-			target = 41AFC56578142174AC5E4E29DE72B1EF /* PreviewableActivityViewController */;
-			targetProxy = 6335972CB36E345DF0DD970793003964 /* PBXContainerItemProxy */;
+			target = E41E8C5C014DCB93483658A8D86B5C3B /* PreviewableActivityViewController */;
+			targetProxy = B7A9A1259C360BDC5134992DA180988D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		07488D4657FB0A78086563621D425F8A /* Debug */ = {
+		521B4270CBE995ABA280C7ED9F8E2A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B163AE35619B7006164DE589A439AB75 /* PreviewableActivityViewController.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PreviewableActivityViewController/PreviewableActivityViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PreviewableActivityViewController/PreviewableActivityViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PreviewableActivityViewController/PreviewableActivityViewController.modulemap";
+				PRODUCT_MODULE_NAME = PreviewableActivityViewController;
+				PRODUCT_NAME = PreviewableActivityViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -368,14 +462,46 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		4C5979781973AABF03CEB806842FCABC /* Debug */ = {
+		A03B355F747A069FCE2376FDB3CB0320 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C9B5423A6291126A4CF9A87683BCA0C /* Pods-PreviewableActivityViewController_Example.debug.xcconfig */;
+			baseConfigurationReference = 75D9A7A96D479869C2495913136D9FDF /* PreviewableActivityViewController.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PreviewableActivityViewController/PreviewableActivityViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PreviewableActivityViewController/PreviewableActivityViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PreviewableActivityViewController/PreviewableActivityViewController.modulemap";
+				PRODUCT_MODULE_NAME = PreviewableActivityViewController;
+				PRODUCT_NAME = PreviewableActivityViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CBD51A95F0487014814599581D39B2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0885B9468B1A67F472780DDF2D198F1 /* Pods-PreviewableActivityViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -406,101 +532,9 @@
 			};
 			name = Debug;
 		};
-		6D902557906F9A8F853A1A356AB30CC3 /* Release */ = {
+		F92B966CC202D125A9416D6946350478 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76DF69F11EAD69281533266C727A49D4 /* PreviewableActivityViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PreviewableActivityViewController/PreviewableActivityViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PreviewableActivityViewController/PreviewableActivityViewController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PreviewableActivityViewController/PreviewableActivityViewController.modulemap";
-				PRODUCT_MODULE_NAME = PreviewableActivityViewController;
-				PRODUCT_NAME = PreviewableActivityViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		D6135E891292499A4435362F0F528F9F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 511D301697E7024E4B237E39C46929C5 /* Pods-PreviewableActivityViewController_Example.release.xcconfig */;
+			baseConfigurationReference = DFC6959626CDA9F2B68E0844B0B696EB /* Pods-PreviewableActivityViewController_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -531,46 +565,15 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		E0C9C7CD4E50F466A653CB2A5EAD490F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76DF69F11EAD69281533266C727A49D4 /* PreviewableActivityViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PreviewableActivityViewController/PreviewableActivityViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PreviewableActivityViewController/PreviewableActivityViewController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PreviewableActivityViewController/PreviewableActivityViewController.modulemap";
-				PRODUCT_MODULE_NAME = PreviewableActivityViewController;
-				PRODUCT_NAME = PreviewableActivityViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		19EE556654E9160BDB95CE7F75EFD983 /* Build configuration list for PBXNativeTarget "PreviewableActivityViewController" */ = {
+		24F5E9E1869B5A1B2415FD67419E7208 /* Build configuration list for PBXNativeTarget "PreviewableActivityViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E0C9C7CD4E50F466A653CB2A5EAD490F /* Debug */,
-				6D902557906F9A8F853A1A356AB30CC3 /* Release */,
+				521B4270CBE995ABA280C7ED9F8E2A80 /* Debug */,
+				A03B355F747A069FCE2376FDB3CB0320 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -578,17 +581,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07488D4657FB0A78086563621D425F8A /* Debug */,
-				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8243CBAE8A5EA4B10EA20D9058286088 /* Build configuration list for PBXNativeTarget "Pods-PreviewableActivityViewController_Example" */ = {
+		B5C052882DAD7AE9B9ECE209C99EFC31 /* Build configuration list for PBXNativeTarget "Pods-PreviewableActivityViewController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C5979781973AABF03CEB806842FCABC /* Debug */,
-				D6135E891292499A4435362F0F528F9F /* Release */,
+				CBD51A95F0487014814599581D39B2D6 /* Debug */,
+				F92B966CC202D125A9416D6946350478 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

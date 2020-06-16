@@ -19,5 +19,5 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "PreviewableActivityViewController/Classes/**/*"
+  "source_files": "Sources/PreviewableActivityViewController.swift"
 }

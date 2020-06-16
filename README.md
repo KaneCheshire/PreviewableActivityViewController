@@ -22,8 +22,13 @@ You can optionally customise things like the aspect ratio of the preview image (
 
 ## Installation
 
-PreviewableActivityViewController is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+### Swift Package Manager
+
+PreviewableActivityViewController supports SPM, simply add HapticGenerator as a package dependency in Xcode 11 or newer.
+
+### Cocoapods
+
+Add the following line to your Podfile:
 
 ```ruby
 pod 'PreviewableActivityViewController'
@@ -31,7 +36,7 @@ pod 'PreviewableActivityViewController'
 
 ## Author
 
-Kane Cheshire,
+[@KaneCheshire](https://twitter.com/kanecheshire)
 
 ## License
 
